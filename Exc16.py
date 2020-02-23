@@ -14,6 +14,5 @@ custoFinal = custo * c
 print("Cliente precisa comprar ","%.2f" % round(c,2)," Latas de tinta")
 print("Valor: ","%.2f" % round(custoFinal,2), "reais")
 
-
 #Fonte de pesquisa para aprendizado do calculo:df
 #https://www.vivendodecoracao.com.br/quantidade-de-ti ta-para-cada-ambiente/
