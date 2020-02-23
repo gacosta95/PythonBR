@@ -5,3 +5,4 @@ speed = float(input("Internet: "))
 file = float(input("Tamanho do arquivo: "))
 calc = (file / speed) / 8
 print(round(calc,2),"Minutos")
+#So
