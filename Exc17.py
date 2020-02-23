@@ -37,7 +37,6 @@ else:
     latas_n = 0
     litrosNG = litrosNG + 1
     print("Compre: ", litrosNG, "lata(s) 18L\nE", latas_n)
-
 """
 math.ceil() para arredondar o valor para cima
 ljust() para definir um espaçamento para a direita
