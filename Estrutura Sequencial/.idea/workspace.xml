@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1975d96d-46b0-4b13-937e-e92565d4705a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Exc18.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exc18.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1YCTVl117m35wYPwWMvYY3BLiiC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1975d96d-46b0-4b13-937e-e92565d4705a" name="Default Changelist" comment="" />
+      <created>1582445601485</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582445601485</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="280" y="14" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582445620433">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="280" y="14" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1582445620433" />
+    <state x="641" y="190" width="514" height="322" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1582445868601">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="641" y="190" width="514" height="322" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.768@0.0.1366.768" timestamp="1582445868601" />
+    <state x="684" y="114" width="428" height="474" key="FileChooserDialogImpl" timestamp="1582445978677">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="684" y="114" width="428" height="474" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1582445978677" />
+    <state x="342" y="-9" key="SettingsEditor" timestamp="1582445923775">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="342" y="-9" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1582445923775" />
+    <state x="-2" y="405" key="com.intellij.ide.util.TipDialog" timestamp="1582445833049">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="-2" y="405" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1582445833049" />
+    <state x="679" y="274" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582445652944">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="679" y="274" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1582445652944" />
+  </component>
+</project>
