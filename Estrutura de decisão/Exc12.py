@@ -16,62 +16,35 @@ qht = float(input('Quantidade de horas trabalhadas: '))
 sb = vht*qht #calcula o salario bruto
 inss = 10
 fgts = 11
-ir = 5
+descINSS = (inss*sb)/100
+Vfgts = (fgts*sb)/100
 
 #Até 900, isento de IR
 if sb <=900:
-    ir = 'Isento'
-    descINSS = (inss*sb)/100
-    Vfgts = (fgts*sb)/100
-    Sliquido = sb-descINSS
-    totalDesc = descINSS
-    print('Salario Bruto:'.ljust(35),": R$",str(sb).replace('.',','))
-    print('(-)IR (5%)'.ljust(35),str(ir).replace('.',','))
-    print('(-)INSS (10%):'.ljust(35),": R$",str(descINSS).replace('.',','))
-    print('FGTS (11%)'.ljust(35),': R$',str(Vfgts).replace('.',','))
-    print('Total descontos'.ljust(35),": R$",str(totalDesc).replace('.',','))
-    print('Salário Liquido'.ljust(35),": R$",str(Sliquido).replace('.',','))
+    ir = 0
+    descIR = 0
 
 elif sb >900 and sb <=1500:
-    
-    descINSS = (inss*sb)/100
-    Vfgts = (fgts*sb)/100
+    ir = 5
     descIR = (ir*sb)/100
-    Sliquido = sb-descINSS
-    totalDesc = descINSS
-    print('Salario Bruto:'.ljust(35),": R$",str(sb).replace('.',','))
-    print('(-)IR (5%)'.ljust(35),": R$",str(descIR).replace('.',','))
-    print('(-)INSS (10%):'.ljust(35),": R$",str(descINSS).replace('.',','))
-    print('FGTS (11%)'.ljust(35),': R$',str(Vfgts).replace('.',','))
-    print('Total descontos'.ljust(35),": R$",str(totalDesc).replace('.',','))
-    print('Salário Liquido'.ljust(35),": R$",str(Sliquido).replace('.',',')) 
 
 elif sb >1500 and sb <=2000:
     ir = 10
-    descINSS = (inss*sb)/100
-    Vfgts = (fgts*sb)/100
     descIR = (ir*sb)/100
-    Sliquido = sb-descINSS
-    totalDesc = descINSS
-    print('Salario Bruto:'.ljust(35),": R$",str(sb).replace('.',','))
-    print('(-)IR (10%)'.ljust(35),": R$",str(descIR).replace('.',','))
-    print('(-)INSS (10%):'.ljust(35),": R$",str(descINSS).replace('.',','))
-    print('FGTS (11%)'.ljust(35),': R$',str(Vfgts).replace('.',','))
-    print('Total descontos'.ljust(35),": R$",str(totalDesc).replace('.',','))
-    print('Salário Liquido'.ljust(35),": R$",str(Sliquido).replace('.',',')) 
 
 elif sb >2500:
     ir = 20
-    descINSS = (inss*sb)/100
-    Vfgts = (fgts*sb)/100
     descIR = (ir*sb)/100
-    Sliquido = sb-descINSS
-    totalDesc = descINSS
-    print('Salario Bruto:'.ljust(35),": R$",str(sb).replace('.',','))
-    print('(-)IR (20%)'.ljust(35),": R$",str(descIR).replace('.',','))
-    print('(-)INSS (10%):'.ljust(35),": R$",str(descINSS).replace('.',','))
-    print('FGTS (11%)'.ljust(35),': R$',str(Vfgts).replace('.',','))
-    print('Total descontos'.ljust(35),": R$",str(totalDesc).replace('.',','))
-    print('Salário Liquido'.ljust(35),": R$",str(Sliquido).replace('.',',')) 
 
+totalDesc = descINSS+descIR
+Sliquido = sb-totalDesc
 
+if descIR==0:
+    descIR = 'Isento'
+
+print('Salario Bruto:'.ljust(35),": R$",str(sb).replace('.',','))
+print('(-)IR ({}%)'.format(ir) .ljust(35),": R$ {}" .format(descIR))
+print('(-)INSS (10%)'.ljust(35),": R$",str(descINSS).replace('.',','))
+print('FGTS (11%)'.ljust(35),': R$',str(Vfgts).replace('.',','))
+print('Total descontos'.ljust(35),": R$",str(totalDesc).replace('.',','))
+print('Salário Liquido'.ljust(35),": R$",str(Sliquido).replace('.',','))
