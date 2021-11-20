@@ -28,7 +28,7 @@ elif sb >900 and sb <=1500:
     ir = 5
     descIR = (ir*sb)/100
 
-elif sb >1500 and sb <=2000:
+elif sb >1500 and sb <=2500:
     ir = 10
     descIR = (ir*sb)/100
 
@@ -41,6 +41,7 @@ Sliquido = sb-totalDesc
 
 if descIR==0:
     descIR = 'Isento'
+
 
 print('Salario Bruto:'.ljust(35),": R$",str(sb).replace('.',','))
 print('(-)IR ({}%)'.format(ir) .ljust(35),": R$ {}" .format(descIR))
