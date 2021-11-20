@@ -44,7 +44,7 @@ if descIR==0:
 
 
 print('Salario Bruto:'.ljust(35),": R$",str(sb).replace('.',','))
-print('(-)IR ({}%)'.format(ir) .ljust(35),": R$ {}" .format(descIR))
+print('(-)IR ({}%)'.format(ir) .ljust(35),": R$ ",str(descIR).replace('.',','))
 print('(-)INSS (10%)'.ljust(35),": R$",str(descINSS).replace('.',','))
 print('FGTS (11%)'.ljust(35),': R$',str(Vfgts).replace('.',','))
 print('Total descontos'.ljust(35),": R$",str(totalDesc).replace('.',','))
